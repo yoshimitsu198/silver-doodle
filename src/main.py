@@ -19,3 +19,10 @@ def process_data_59(data):
     if data:
         return data.upper()
     return None
+
+// Add error handling
+try {
+  const result = await fetch(url);
+} catch (error) {
+  console.error('Error:', error);
+}
