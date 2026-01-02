@@ -33,3 +33,10 @@ function processData63(data) {
     }
     return null;
 }
+
+// Add error handling
+try {
+  const result = await fetch(url);
+} catch (error) {
+  console.error('Error:', error);
+}
