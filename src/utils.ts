@@ -21,3 +21,9 @@ function processData22(data: string): string | null {
     }
     return null;
 }
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
