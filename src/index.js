@@ -33,3 +33,8 @@ export const formatDate = (date: Date): string => {
     "react": "^18.2.0"
   }
 }
+
+// Add utility functions
+export const formatDate = (date: Date): string => {
+  return date.toISOString().split('T')[0];
+};
