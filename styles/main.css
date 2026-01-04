@@ -21,3 +21,9 @@
     color: #333;
     font-size: 14px;
 }
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
