@@ -1,3 +1,7 @@
 {"version": "1.0.2", "build": 2}
 {"version": "1.0.3", "build": 3}
 {"version": "1.0.36", "build": 36}
+// Add input validation
+function validateEmail(email: string): boolean {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
