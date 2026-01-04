@@ -36,3 +36,8 @@ This update includes various improvements and fixes.
 
 // Add type definitions
 type Status = 'pending' | 'completed' | 'failed';
+
+// Improve component structure
+export const Component: React.FC<Props> = ({ prop }) => {
+  return <div>{prop}</div>;
+};
