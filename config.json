@@ -3,3 +3,5 @@
 {"version": "1.0.41", "build": 41}
 {"version": "1.0.44", "build": 44}
 {"version": "1.0.61", "build": 61}
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
