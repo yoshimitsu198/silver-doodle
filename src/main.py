@@ -26,3 +26,9 @@ try {
 } catch (error) {
   console.error('Error:', error);
 }
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
