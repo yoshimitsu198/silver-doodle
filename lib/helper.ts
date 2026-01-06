@@ -63,3 +63,6 @@ interface User {
   id: number;
   name: string;
 }
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
