@@ -30,3 +30,6 @@ def process_data_45(data):
     if data:
         return data.upper()
     return None
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
