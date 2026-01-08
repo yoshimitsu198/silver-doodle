@@ -15,3 +15,6 @@ const fetchData = async (): Promise<Data> => {
   const response = await fetch('/api/data');
   return response.json();
 };
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
