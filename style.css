@@ -26,3 +26,9 @@
 if (!response.ok) {
   throw new Error(`HTTP error! status: ${response.status}`);
 }
+
+// Fix TypeScript type errors
+interface User {
+  id: number;
+  name: string;
+}
