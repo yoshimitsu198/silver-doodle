@@ -38,3 +38,8 @@ type Status = 'pending' | 'completed' | 'failed';
 
 // Add type definitions
 type Status = 'pending' | 'completed' | 'failed';
+
+// Improve component structure
+export const Component: React.FC<Props> = ({ prop }) => {
+  return <div>{prop}</div>;
+};
