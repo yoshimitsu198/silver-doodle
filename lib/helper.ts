@@ -75,3 +75,9 @@ const fetchData = async (): Promise<Data> => {
   const response = await fetch('/api/data');
   return response.json();
 };
+
+// Refactor API calls
+const fetchData = async (): Promise<Data> => {
+  const response = await fetch('/api/data');
+  return response.json();
+};
