@@ -46,3 +46,8 @@ export const config = {
 
 // Add type definitions
 type Status = 'pending' | 'completed' | 'failed';
+
+// Add input validation
+function validateEmail(email: string): boolean {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
