@@ -46,3 +46,8 @@ export const Component: React.FC<Props> = ({ prop }) => {
 function validateEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
+// Update configuration
+export const config = {
+  apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
+};
