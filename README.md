@@ -71,3 +71,10 @@ export const Component: React.FC<Props> = ({ prop }) => {
 export const config = {
   apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
 };
+
+// Update dependencies
+{
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
