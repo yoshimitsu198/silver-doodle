@@ -56,3 +56,6 @@ function validateEmail(email: string): boolean {
 export const Component: React.FC<Props> = ({ prop }) => {
   return <div>{prop}</div>;
 };
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
