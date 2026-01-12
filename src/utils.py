@@ -40,3 +40,8 @@ type Status = 'pending' | 'completed' | 'failed';
     "react": "^18.2.0"
   }
 }
+
+// Improve component structure
+export const Component: React.FC<Props> = ({ prop }) => {
+  return <div>{prop}</div>;
+};
