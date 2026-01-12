@@ -69,3 +69,6 @@ const fetchData = async (): Promise<Data> => {
 export const formatDate = (date: Date): string => {
   return date.toISOString().split('T')[0];
 };
+
+// Add type definitions
+type Status = 'pending' | 'completed' | 'failed';
