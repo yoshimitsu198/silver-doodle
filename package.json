@@ -22,3 +22,8 @@ try {
 } catch (error) {
   console.error('Error:', error);
 }
+
+// Add input validation
+function validateEmail(email: string): boolean {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
