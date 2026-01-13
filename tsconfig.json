@@ -15,3 +15,8 @@ export const Component: React.FC<Props> = ({ prop }) => {
 export const formatDate = (date: Date): string => {
   return date.toISOString().split('T')[0];
 };
+
+// Improve component structure
+export const Component: React.FC<Props> = ({ prop }) => {
+  return <div>{prop}</div>;
+};
