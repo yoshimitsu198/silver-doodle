@@ -45,3 +45,8 @@ type Status = 'pending' | 'completed' | 'failed';
 export const Component: React.FC<Props> = ({ prop }) => {
   return <div>{prop}</div>;
 };
+
+// Update configuration
+export const config = {
+  apiUrl: process.env.REACT_APP_API_URL || 'http://localhost:3000'
+};
